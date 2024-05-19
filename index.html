@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokédex JS</title>
+
+    <link rel="icon" href="./src/img/favicon-16x16.png">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <main>
+        <img src="#" alt="pokemon" class="pokemon-img">
+
+        <h1 class="pokemon-data">            
+            <span class="pokemon-number"></span> -
+            <span class="pokemon-name"></span>
+        </h1>
+
+        <form class="form">
+            <input 
+            type="search"
+            class="input-search"
+            placeholder="Nome ou número"
+            required 
+            />
+        </form>
+
+        <div class="buttons">
+            <button class="btn btn-prev">&lt;- Voltar</button>
+            <button class="btn btn-next">Avançar -&gt;</button>
+        </div>
+        
+        <img src="./src/img/pokedex.png" alt="Pokédex" class="pokedex">
+    </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
+
 </html>
