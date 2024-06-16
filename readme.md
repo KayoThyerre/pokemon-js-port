@@ -13,7 +13,7 @@ Para ter acesso a mesma API que eu utilizei no processo de prototipação desta 
 
 # Link do GitHUB pages
 
-> [CLIQUE AQUI](https://kayothyerre.github.io/char-select-port/)
+> [CLIQUE AQUI](https://kayothyerre.github.io/pokemon-js-port/)
 
 # Modo de uso
 
